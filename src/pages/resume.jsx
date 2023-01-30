@@ -9,14 +9,14 @@ const resume = () => {
         <title>Tanuja Pyneni | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I’m a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
+        <div className='bg-[#b3a5c1] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Tanuja Pyneni</h2>
           <div className='flex'>
             <a

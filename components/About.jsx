@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const About =() => {
     return(
@@ -33,7 +34,8 @@ const About =() => {
             </p>
                 </div>
                 <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                    <img className='rounded-xl'alt='/' src ="https://www.springboard.com/blog/wp-content/uploads/2019/07/sb-blog-programming.png"/>
+                    {/*<img className='rounded-xl'alt='/' src ="https://www.springboard.com/blog/wp-content/uploads/2019/07/sb-blog-programming.png"/>*/}
+                    <Image className='rounded-xl'src="/../public/assets/about.png" alt="/" width='500' height='50'/>
                 </div>
             </div>
         </div>

@@ -22,10 +22,9 @@ const Contact = () => {
                     </div>
                     <div>
                     <h2 className='py-2'>Tanuja Pyneni</h2>
-                    <p>Front-End Developer</p>
+                    <p>Full-Stack Developer</p>
                     <p className='py-4'>
-                    I am available for freelance or full-time positions. Contact
-                    me and let's talk.
+                    I am available for freelance or full-time positions. Contact me.
                     </p>
                     </div>
                     <div>
