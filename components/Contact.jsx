@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import Image from 'next/image'
+import ContactImg from '/../public/assets/contact.png'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className='lg:p-4 h-full '>
                     <div>
                         {/*<img className ='rounded-xl hover:scale-105 ease-in duration-300' src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg?w=740&t=st=1674967737~exp=1674968337~hmac=046d9a0269703277644a1206e9c9d37fd0e4c1bf5be6d937075ff6d00b9ea669" alt='Contact on'/>*/}
-                        <Image className = 'rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/contact.png" alt="/" width='400' height='55'/>
+                        <Image className = 'rounded-xl hover:scale-105 ease-in duration-300' src={ContactImg} alt="/" width='400' height='55'/>
                     </div>
                     <div>
                     <h2 className='py-2'>Tanuja Pyneni</h2>

@@ -2,12 +2,12 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import Image from 'next/image';
+import MainImg from '/../public/assets/profilePhoto.png';
 
 const Main =() =>{
     return(
         <div id='home' className = 'flex items-center'>
-            <Image className='rounded-lg object-scale-down h-48 lg:h-80 sm:w-10 md:w-32 lg:w-96 lg:pl-20 md:pl-5' src="/../public/assets/profilePhoto.png" alt="/" width='500' height='50'/>
+            <Image className='rounded-lg object-scale-down h-48 lg:h-80 sm:w-10 md:w-32 lg:w-96 lg:pl-20 md:pl-5' src={MainImg} alt="/" width='500' height='50'/>
         <div className='w-full h-screen text-center'>
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div className='flex flex-col'>

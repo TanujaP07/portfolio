@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import NavImg from '/../public/assets/navbarLogo.png';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { Document, Page } from 'react-pdf';
@@ -34,7 +34,7 @@ const Navbar = () => {
         
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
-                <Image src="/../public/assets/navbarLogo.png" alt="/" width='85' height='50'/>
+                <Image src={NavImg} alt="/" width='85' height='50'/>
                 </Link>
                 <div>
                     <ul className= 'hidden md:flex'>
