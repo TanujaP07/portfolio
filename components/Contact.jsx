@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ContactImg from '../public/assets/contact.png'; 
@@ -112,4 +112,4 @@ const Contact = () => {
 </div>
   )
 }
-export default Contact
+export default Contact;

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import React from 'react';
 import Html from '../public/assets/skills/html.png';
 import Css from '../public/assets/skills/css.png';
 import Angular from '../public/assets/skills/angular.png';

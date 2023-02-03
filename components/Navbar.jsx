@@ -38,9 +38,9 @@ const Navbar = () => {
                 <Image src={NavImg} alt="/" width='85' height='50'/>
                 </Link>
                 <div>
-                    <ul className= 'hidden md:flex'>
+                    <ul style={{ color: `${linkColor}` }} className= 'hidden md:flex'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>
-                            <Link href='/#home'>Home</Link>
+                            <Link href='/'>Home</Link>
                             </li>
                             
                             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -65,7 +65,8 @@ const Navbar = () => {
                     </ul>
 
                     {/* Menu/sidebar Icon */}
-                    <div onClick={handleNav} className= 'md:hidden'>
+                    <div style={{ color: `${linkColor}` }} 
+                    onClick={handleNav} className= 'md:hidden'>
                         <AiOutlineMenu size={25}/>
                     </div>
                 </div>
@@ -84,7 +85,7 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                        <Image src="/../public/assets/navbarLogo.png" alt='/' width='85' height='30'/>
+                        <Image src={NavImg} alt='/' width='85' height='30'/>
                         </Link>
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose/>
@@ -96,7 +97,7 @@ const Navbar = () => {
                     </div>
                     <div className='py-4 flex flex-col' >
                         <ul className= 'uppercase'>
-                            <Link href='/#home'>
+                            <Link href='/'>
                                 <li onClick={() => setNav(false)} className= 'py-4 text-sm'>Home</li>
                             </Link>
                             <Link href='/#about'>
@@ -138,13 +139,17 @@ const Navbar = () => {
                             </div>
                             </a>
                             <Link href='/#contact'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <div  onClick={() => setNav(!nav)} 
+                            className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                             <AiOutlineMail/>
                             </div>
                             </Link>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <Link href='/resume'>
+                            <div  onClick={() => setNav(!nav)}
+                            className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                             <BsFillPersonLinesFill/>
                             </div>
+                            </Link>
                             </div>
                         </div>
                     </div>
