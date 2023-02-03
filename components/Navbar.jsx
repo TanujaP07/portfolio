@@ -1,5 +1,6 @@
-import NavImg from '/../public/assets/navbarLogo.png';
+import NavImg from '../public/assets/navbarLogo.png';
 import Link from 'next/link';
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { Document, Page } from 'react-pdf';
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai';

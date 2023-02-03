@@ -1,8 +1,9 @@
 import React from 'react'
+import Image from 'next/image';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import MainImg from '/../public/assets/profilePhoto.png';
+import MainImg from '../public/assets/profilePhoto.png';
 
 const Main =() =>{
     return(

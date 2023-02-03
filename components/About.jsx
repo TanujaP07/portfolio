@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 import AboutImg from '../public/assets/about.png';
 
 const About =() => {
